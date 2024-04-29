@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  // Main Background Color
+  --main-background-color: #d7e3ff;
+
+  // Font Families
+  --title-font-family: Montserrat, sans-serif;
+  --subtitle-text-font-family: Inter, sans-serif;
+
+  // Font Weights
+  --font-weight-bold: 600;
+  --font-weight-medium: 550;
+  --font-weight-regular: 400;
+}
+
+
+.title-bold-h1 {
+  font-family: var(--title-font-family);
+  font-size: 40px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.24;
+  letter-spacing: 0;
+}
+
+.title-bold-h2 {
+  font-family: var(--title-font-family);
+  font-size: 32px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.28;
+  letter-spacing: 0;
+}
+
+
+.title-bold-h3 {
+  font-family: var(--title-font-family);
+  font-size: 24px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.32;
+  letter-spacing: 0;
+}
+
+.title-bold-h4 {
+  font-family: var(--title-font-family);
+  font-size: 20px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.title-bold-h5 {
+  font-family: var(--title-font-family);
+  font-size: 18px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.4;
+  letter-spacing: 0;
+}
