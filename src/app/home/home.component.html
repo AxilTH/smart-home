@@ -1,1 +1,17 @@
-<p>home works!</p>
+<div class="home-page">
+  <p class="home-page__title title-bold-h1">Модель умного дома</p>
+  <div class="home-page__devices">
+    <p class="home-page__devices-title title-bold-h2">Устройства</p>
+    <ul class="home-page__devices-list title-bold-h5">
+      <li class="devices-list__item">
+        <app-conditioner [controllerState]="controller"></app-conditioner>
+      </li>
+      <li class="devices-list__item">
+        <app-humidifier [controllerState]="controller"></app-humidifier>
+      </li>
+      <li class="devices-list__item">
+        <app-bulbs [controllerState]="controller"></app-bulbs>
+      </li>
+    </ul>
+  </div>
+</div>
