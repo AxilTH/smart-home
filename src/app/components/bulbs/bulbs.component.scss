@@ -1,0 +1,26 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bulbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 24px;
+  background-color: #fff;
+
+  &__on {
+    background-color: #2f992b;
+    color: #fff;
+  }
+
+  &__off {
+    background-color: #bd2d28;
+    color: #fff;
+  }
+}
